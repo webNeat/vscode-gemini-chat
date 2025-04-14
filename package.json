@@ -1,0 +1,13 @@
+{
+  "name": "gemini-chat",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini VSCode Chat",
+  "version": "1.0",
+  "description": "Chat with Gemini from VSCode",
+  "permissions": [],
+  "host_permissions": ["https://aistudio.google.com/*", "http://localhost:3331/*"],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://aistudio.google.com/prompts/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
