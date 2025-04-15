@@ -902,7 +902,7 @@ Right now, we wait for the full response to be streamed to the browser before ap
 
 To do that, I updated the content script to send the current response every 300ms while it's being streamed. Then updated the service worker to send those partial responses to the server, and updated the chat.ts to rewrite the file with each partial response.
 
-I will not bore you with the full code here, you can check it out on GitHub: https://github.com/webneat/gemini-chat
+I will not bore you with the full code here, you can check it out on GitHub: https://github.com/webneat/vscode-gemini-chat
 
 ## Conclusion
 
@@ -910,4 +910,4 @@ This was a fun little project that made me learn new things about Chrome extensi
 
 Let me know what you think about it, would you use this tool if I make easier to install (proper VSCode and browser extensions)? would you like it to support other AI chats (ChatGPT, Claude, ...)? what other features would you like to see?
 
-You can check the full code on GitHub: https://github.com/webneat/gemini-chat
+You can check the full code on GitHub: https://github.com/webneat/vscode-gemini-chat
